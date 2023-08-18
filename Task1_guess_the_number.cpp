@@ -43,7 +43,7 @@ int main()
             cout << "You will be getting 6 chances to guess the correct number\n";
             for (int i = 0; i < 6; i++)
             {
-                cout << "Enter your guess between 1 and 100::";
+                cout << "Enter your guess between 1 and 100:: ";
                 cin >> guess;
 
                 if (guess > random_number)
@@ -77,7 +77,7 @@ int main()
             cout << "You will be getting 4 chances to guess the correct number\n";
             for (int i = 0; i < 4; i++)
             {
-                cout << "Enter your guess between 1 and 100::";
+                cout << "Enter your guess between 1 and 100:: ";
                 cin >> guess;
 
                 if (guess > random_number)
@@ -107,21 +107,21 @@ int main()
             break;
 
         case 3:
-            cout << "-------------------HARD LEVEL-----------------------------/n/n";
-            cout << "You will be getting 2 chances to guess the correct number/n";
+            cout << "-------------------HARD LEVEL-----------------------------\n\n";
+            cout << "You will be getting 2 chances to guess the correct number\n";
             for (int i = 0; i < 2; i++)
             {
-                cout << "Enter your guess between 1 and 100";
+                cout << "Enter your guess between 1 and 100 :: ";
                 cin >> guess;
 
                 if (guess > random_number)
                 {
-                    cout << "Ohooo,Please enter a smaller number/n";
+                    cout << "Ohooo,Please enter a smaller number\n";
                 }
 
                 else if (guess < random_number)
                 {
-                    cout << "Ohooo,Please enter a greater number/n";
+                    cout << "Ohooo,Please enter a greater number\n";
                 }
 
                 else
