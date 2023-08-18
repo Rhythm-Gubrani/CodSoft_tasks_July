@@ -40,15 +40,7 @@ int main()
             break;
 
         case 2:
-            if (num1 > num2)
-            {
                 cout << "Difference of two numbers::" << num1 - num2;
-            }
-            else
-            {
-                cout << "The first number entered is greater than second number therefore can not perform subtraction.";
-                cout << "\nSorry for the inconvenience caused\n";
-            }
             break;
 
         case 3:
